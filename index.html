@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Rock-Paper-Scissors</title>
+</head>
+<body>
+  <div id="boomContainer">
+    <div class="boomBox" id="boomBtn">Boom</div>
+  </div>
+
+  <div class="content-layout">
+    <div class="top-container">
+      <nav class="heading">
+        
+        <div class="tie-matches">
+          <div class="tied-matches" id="tieBox">
+            00
+          </div>
+          <div id="tie-Span">Tied Matches Played</div>
+        </div>
+        <h1>Rock-Paper-Scissors</h1>
+        <div class="reset">
+          <button class="nav-btn" id="resetButton">Reset</button>
+        </div>
+      </nav>
+
+      <!-- board display section -->
+      <div class="main-board-container">
+        <div class="score-board player">
+          
+          
+          <div id="playerPoints" class="scorePoints">
+            00
+          </div>
+          <span id="playerNames" class="playerName spanStyle">Dave</span>
+        </div>
+
+        <!-- What you chose box -->
+        <div class="chosenHand playerHand">
+          <span class="chose">YOU CHOSE</span>
+          <img id="playerChosenHand" src="/img/question-mark.svg" alt="boardSelection" >
+        </div>
+
+        <!-- display who won box -->
+        <div id="game-result-Box"></div>
+
+        <!-- What CPU chose box -->
+        <div class="chosenHand cpuHand">
+          <span class="chose">CPU CHOSE</span>
+          <img id="cpuChoseHand" src="/img/question-mark.svg" alt="boardSelection">
+        </div>
+        
+        <div class="score-board cpu">
+          <div class="scorePoints" id="computerPoints">
+            00
+          </div>
+          <span class="spanStyle">CPU</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- main content selection -->
+    <div class="RPS-selection">
+      <div class="rock hand-selection">
+        <img class="main-hand-img" src="/img/rock-hand.svg" alt="Rock Hand">
+        <div class="click-btn">
+          <button class="mn-btn-selct" id="rock-btn">rock</button>
+        </div>
+      </div>
+      <div class="paper hand-selection">
+        <img class="main-hand-img" src="/img/paper-hand.svg" alt="Paper Hand">
+        <div class="click-btn">
+          <button class="mn-btn-selct" id="paper-btn">paper</button>
+        </div>
+      </div>
+      <div class="scissors hand-selection">
+        <img class="main-hand-img" src="/img/scissor-hand.svg" alt="Scissor Hand">
+        <div class="click-btn">
+          <button class="mn-btn-selct" id="scissors-btn">scissors</button>
+        </div>
+    </div>
+  </div>
+
+
+  <script src="/js/script.js"></script>
+
+</body>
+</html>

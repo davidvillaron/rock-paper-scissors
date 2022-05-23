@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 5px;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  background-color: #051F19;
+}
+#boomBGtwo {
+  height: 100vh;
+  width: auto;
+  position: absolute;
+  margin: 0 auto;
+  z-index: 1000;
+}
+.content-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+button {
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.boom-container{
+  position: relative;
+}
+.boomBox {
+  position: absolute;
+  color: #ffffff;
+  border: #93b294 dashed 2px;
+  width: 90px;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 1.1em;
+  padding: 10px 5px;
+  color: #B6F296;
+}
+
+.nav-btn {
+  border: #8b8b8b 2px solid;
+  padding: 15px 12px;
+  font-family: skia, Verdana;
+}
+
+.tied-matches{
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  width: 190px;
+  height: auto;
+  text-align: center;
+  border: #8b8b8b solid 3px;
+  font-size: 35px;
+}
+#tie-Span{
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+
+}
+/* board display section */
+.main-board-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  color: #ffffff;
+}
+
+.score-board {
+  display: flex;
+  flex-direction: column;
+}
+
+.scorePoints {
+  display: flex;
+  border: #C97008 solid 5px;
+  width: 183px;
+  height: 117px;
+  font-size: 88px;
+  font-family: Manifold CF, Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.spanStyle {
+  background-color: #E50000;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+}
+#playerNames {
+  background-color: rgb(0, 29, 155);
+}
+.chose {
+  font-size: 1.5em;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#game-result-Box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: #ffffff solid 3px;
+  width: 196px;
+  height: 160px;
+  font-family: Skia, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+}
+
+.chosenHand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* <!-- main content selection --> */
+.heading h1 {
+  color: #ffffff;
+  font-family: Bradley Hand, Verdana, Geneva;
+  font-size: 3em;
+}
+.RPS-selection {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+.hand-selection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-hand-img {
+  height: 305px;
+}
+
+.click-btn {
+  width: 100%;
+}
+.mn-btn-selct {
+  background-color: #C97008;
+  width: 100%;
+  padding: 15px 12px;
+  font-family: Chalkboard SE, sans-serif, Tahoma, Verdana;
+  font-size: 1.5em;
+}
